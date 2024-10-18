@@ -14,13 +14,18 @@ export class AddTareaComponent {
   emitirTarea: EventEmitter<Tarea> = new EventEmitter();
 
   tarea: Tarea = {
-    nombre:''
+    nombre: ''
   }
 
-  addTarea(){
+  addTarea() {
 
-    console.log(this.tarea);
-    this.emitirTarea.emit({...this.tarea})
+    if (this.tarea.nombre.trim() === '') {
+      alert('Complete el campo nombre');
+      this.tarea.nombre = '';
+      return;
+    }
+    this.emitirTarea.emit({ ...this.tarea })
+    this.tarea.nombre = '';
   }
 
 }
