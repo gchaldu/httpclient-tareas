@@ -1,0 +1,12 @@
+<section>
+  <fieldset>
+    <form action="">
+      <legend>Alta Tarea</legend>
+
+      <label for="">Tarea: </label>
+      <input type="text" [(ngModel)]="tarea.nombre" [ngModelOptions]="{standalone: true}">
+
+      <button (click)="addTarea()">Add</button>
+    </form>
+  </fieldset>
+</section>
