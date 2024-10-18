@@ -1,4 +1,4 @@
-export interface Tarea{
-  id?: number;
+export interface Tarea {
+  id?: string;
   nombre: string
 }

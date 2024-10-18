@@ -1,3 +1,6 @@
+.container {
+  margin-top: 5rem;
+}
 fieldset {
   width: 40%;
   margin: 0 auto;
@@ -5,7 +8,7 @@ fieldset {
   border-radius: 0.5rem;
 }
 
-.formulario input {
+input {
   width: 100%;
   font-size: 1.7rem;
   margin: 2rem 0;

@@ -1,0 +1,52 @@
+app-add-tarea {
+  margin: 5rem;
+}
+
+.fa-trash-can-arrow-up {
+  color: var(--rosa-fuerte);
+  font-size: 2rem;
+}
+
+.fa-pen-to-square {
+  color: var(--negro);
+  font-size: 2rem;
+}
+
+.fa-pen-to-square,
+.fa-trash-can-arrow-up {
+  cursor: pointer;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin: 0 auto;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 2px solid var(--rosa-fuerte);
+  font-size: 1.7rem;
+  color: var(--gris);
+}
+
+th {
+  background-color: var(--rosa-fuerte);
+  color: var(--gris);
+  font-size: 1.7rem;
+}
+
+tr:hover td {
+  color: var(--negro);
+  background-color: var(--gris);
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 300;
+}

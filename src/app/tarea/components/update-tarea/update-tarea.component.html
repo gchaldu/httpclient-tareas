@@ -1,15 +1,14 @@
 <section class="container">
   <fieldset>
-    <legend>Alta Tarea</legend>
-    <form class="formulario">
+    <legend>Actualizar Tarea</legend>
+    <form>
       <label for="">Tarea: </label>
       <input
         type="text"
         [(ngModel)]="tarea.nombre"
         [ngModelOptions]="{ standalone: true }"
       />
-
-      <button (click)="addTarea()">Add</button>
+      <button (click)="actualizar($event)">Update</button>
     </form>
   </fieldset>
 </section>

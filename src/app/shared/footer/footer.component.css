@@ -1,35 +1,43 @@
-.footer{
+.footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
-  background-color: #0c151c;
   padding: 2rem;
 }
 
-.logo img{
+.logo img {
   margin: 0 auto;
   width: 50%;
   display: block;
 }
 
-.nav{
+.nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.nav a{
+.nav a {
   text-decoration: none;
-  color: aliceblue;
+  color: var(--gris);
+  font-size: 1.7rem;
 }
 
-.redes{
+.nav a:hover {
+  color: var(--rosa-fuerte);
+}
+
+.redes {
   display: flex;
   justify-content: space-around;
 }
 
-.fa-brands{
-  color: aliceblue;
+.fa-brands {
+  color: var(--rosa-fuerte);
   cursor: pointer;
+  font-size: 2rem;
+}
+.fa-brands:hover {
+  color: var(--gris);
 }
